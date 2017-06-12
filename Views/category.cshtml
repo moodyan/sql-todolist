@@ -1,4 +1,7 @@
-<h1>To Do List</h1>
+@{
+  Layout="Shared/_Layout.cshtml";
+}
+
 <h2>Category: @Model["category"].GetName()</h2>
 <hr />
 @if (@Model["categoryTasks"].Count != 0)
